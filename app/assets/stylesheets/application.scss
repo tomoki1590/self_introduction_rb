@@ -1,5 +1,12 @@
-@import "bootstrap"; 
+@import "bootstrap";
+@import "./tops";
+@import "./pages";
 
-//= require jquery3 
-//= require popper 
-//= require bootstrap 
+
+html {
+    height: 100%;
+    position: relative;
+}
+body {
+    font-family: "Impact","Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
+}
